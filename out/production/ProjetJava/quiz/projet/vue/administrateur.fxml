@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="782.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.projet.controller.ControleurPages">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcbcbc" height="158.0" layoutX="129.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="552.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcbcbc" height="158.0" layoutX="131.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="552.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcbcbc" height="158.0" layoutX="133.0" layoutY="392.0" stroke="BLACK" strokeType="INSIDE" width="552.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcbcbc" height="158.0" layoutX="133.0" layoutY="575.0" stroke="BLACK" strokeType="INSIDE" width="552.0" />
+   <Button layoutX="176.0" layoutY="129.0" onAction="#creerCours" text="Créer Cours" />
+   <Button layoutX="285.0" layoutY="129.0" onAction="#supprimerCours" text="Supprimer Cours" />
+   <Button layoutX="405.0" layoutY="129.0" onAction="#modifierCours" text="Modifier Cours" />
+   <Button layoutX="516.0" layoutY="129.0" onAction="#afficherListeCours" text="Afficher Liste Cours" />
+
+   <Button layoutX="166.0" layoutY="317.0" onAction="#creerGroupe" text="Créer Groupe" />
+   <Button layoutX="270.0" layoutY="317.0" onAction="#supprimerGroupe" text="Supprimer Groupe" />
+   <Button layoutX="397.0" layoutY="317.0" onAction="#modifierGroupe" text="Modifier Groupe" />
+   <Button layoutX="516.0" layoutY="317.0" onAction="#afficherListeGroupes" text="Afficher Liste Groupes" />
+
+   <Button layoutX="142.0" layoutY="507.0" onAction="#creerEnseignant" text="Créer Enseignant" />
+   <Button layoutX="255.0" layoutY="507.0" onAction="#supprimerEnseignant" text="Supprimer Enseignant" />
+   <Button layoutX="395.0" layoutY="507.0" onAction="#modifierEnseignant" text="Modifier Enseignant" />
+   <Button layoutX="524.0" layoutY="507.0" onAction="#afficherListeEnseignants" text="Afficher Liste Enseignants" />
+
+   <Button layoutX="156.0" layoutY="686.0" onAction="#creerEtudiant" text="Créer Étudiant" />
+   <Button layoutX="266.0" layoutY="686.0" onAction="#supprimerEtudiant" text="Supprimer Étudiant" />
+   <Button layoutX="401.0" layoutY="686.0" onAction="#modifierEtudiant" text="Modifier Étudiant" />
+   <Button layoutX="524.0" layoutY="686.0" onAction="#afficherListeEtudiants" text="Afficher Liste Étudiants" />
+   <Label layoutX="307.0" layoutY="58.0" text="Gestion Cours">
+      <font>
+         <Font name="System Bold" size="28.0" />
+      </font>
+   </Label>
+   <Label layoutX="296.0" layoutY="233.0" text="Gestion Groupes">
+      <font>
+         <Font name="System Bold" size="28.0" />
+      </font>
+   </Label>
+   <Label layoutX="283.0" layoutY="420.0" text="Gestion Enseignants">
+      <font>
+         <Font name="System Bold" size="28.0" />
+      </font>
+   </Label>
+   <Label layoutX="292.0" layoutY="607.0" text="Gestion Etudiants">
+      <font>
+         <Font name="System Bold" size="28.0" />
+      </font>
+   </Label>
+</AnchorPane>

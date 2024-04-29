@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="782.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.projet.controller.ControleurPages">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcbcbc" height="158.0" layoutX="132.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="552.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcbcbc" height="219.0" layoutX="132.0" layoutY="373.0" stroke="BLACK" strokeType="INSIDE" width="552.0" />
+    <Button layoutX="162.0" layoutY="254.0" onAction="#creerQuestion" text="Créer question" />
+    <Button layoutX="267.0" layoutY="254.0" onAction="#supprimerQuestion" text="Supprimer question" />
+    <Button layoutX="399.0" layoutY="254.0" onAction="#modifierQuestion" text="Modifier question" />
+    <Button layoutX="519.0" layoutY="254.0" onAction="#afficherListeQuestion" text="Afficher Liste question" />
+
+    <Button layoutX="213.0" layoutY="509.0" onAction="#genererquiz" text="Génerer Quiz" />
+    <Button layoutX="325.0" layoutY="509.0" onAction="#telechargerpdf" prefHeight="25.0" prefWidth="157.0" text="Génerer Quiz PDF" />
+    <Button layoutX="510.0" layoutY="509.0" onAction="#afficherlistequiz" prefHeight="25.0" prefWidth="121.0" text="Voir Quiz génerés" />
+    <Label layoutX="297.0" layoutY="183.0" text="Gestion Question">
+        <font>
+            <Font name="System Bold" size="28.0" />
+        </font>
+    </Label>
+    <Label layoutX="294.0" layoutY="411.0" text="Gestion Quizzes">
+        <font>
+            <Font name="System Bold" size="28.0" />
+        </font>
+    </Label>
+</AnchorPane>

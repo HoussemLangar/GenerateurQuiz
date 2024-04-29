@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="724.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.projet.controller.ControleurPages">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcbcbc" height="437.0" layoutX="54.0" layoutY="123.0" stroke="BLACK" strokeType="INSIDE" width="694.0" />
+      <Label layoutX="292.0" layoutY="195.0" text="Bienvenue">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="170.0" layoutY="352.0" mnemonicParsing="false" onAction="#afficherlistequiz" text="Voir les Quiz">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="358.0" layoutY="352.0" mnemonicParsing="false" onAction="#passerquiz" text="Passer Quiz">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="518.0" layoutY="352.0" mnemonicParsing="false" onAction="#affichercorrection" text="Voir Correction">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

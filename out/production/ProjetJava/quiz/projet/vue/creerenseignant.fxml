@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.projet.controller.ControleurAdministrateur">
+    <TextField fx:id="nomEnseignantField" layoutX="236.0" layoutY="123.0" prefHeight="49.0" prefWidth="185.0" />
+    <Label layoutX="134.0" layoutY="47.0" text="Créer nouveau Enseignant">
+        <font>
+            <Font name="System Bold" size="29.0" />
+        </font>
+    </Label>
+    <Button layoutX="312.0" layoutY="322.0" mnemonicParsing="false" onAction="#creerenseignant" text="Créer">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font>
+    </Button>
+    <Label layoutX="65.0" layoutY="138.0" prefHeight="17.0" prefWidth="90.0" text="Username">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </Label>
+    <Label layoutX="65.0" layoutY="215.0" text="Mot de passe">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </Label>
+   <PasswordField fx:id="passEnseignantField" layoutX="238.0" layoutY="203.0" prefHeight="49.0" prefWidth="185.0" />
+</AnchorPane>
